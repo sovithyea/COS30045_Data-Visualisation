@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Creating Web Application" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Sovithyea Prach" />
+    <link rel="stylesheet" href="style/main.css">
+    <title>Appliance Energy Consumption Website</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="images/powerlogo.png" id="logo" alt="Power Logo">
+            <ul>
+                <li><a href="#" class="nav-link" data-page="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-page="televisions">Televisions</a></li>
+                <li><a href="#" class="nav-link" data-page="about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="content active">
+            <h1>Welcome to my Home Page</h1>
+            <div class="responsive-svg-container" id="tv-chart-container"></div>
+        </section>
+
+        <section id="televisions" class="content">
+            <h1>Televisions Section</h1>
+            
+            <h2>Audience:</h2>
+            <p>Consumers/Homeowners. They want to know what devices they are purchasing and how much they are spending.</p>
+            <p><strong>Key Question:</strong> Which screen technology consumes the least power?</p>
+
+            <h2>What Do They Want to Know?</h2>
+            <p>They want to know how much energy their television uses and how to choose the best device for their budget.</p>
+
+            <h2>How Will I Present This Information?</h2>
+            <p>Bar chart</p>
+
+            <h2>Storyline:</h2>
+            <div class="text-container">
+                <div class="text-box">
+                    <h2>Issue:</h2>
+                    <p>Certain televisions are using up a massive amount of energy, raising homeowners' electricity costs.</p>
+                </div>
+
+                <div class="text-box">
+                    <h2>Demonstrate Issue:</h2>
+                    <p>Showcase the bar chart comparing each screen technology from least energy-consuming to most.</p>
+                </div>
+            </div>
+
+            <div class="text-container">
+                <div class="text-box">
+                    <h2>Describe Purchasing Tips:</h2>
+                    <p>What factors should consumers consider when buying an energy-efficient TV?</p>
+                </div>
+
+                <div class="text-box">
+                    <h2>Recommendations:</h2>
+                    <p>Homeowners should look out for energy labels, screen technology types, and power ratings before purchasing.</p>
+                </div>
+            </div>
+
+            <h2>Bar Chart:</h2>
+            
+
+        </section>
+
+        <section id="about" class="content">
+            <h1>About Us</h1>
+        </section>
+    </main>
+
+    <footer>
+        <p class="left">&copy; Sovithyea Prach</p>
+        <p class="right">Aided with ChatGPT</p>
+    </footer>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/barChart.js"></script>
+</body>
+</html>
