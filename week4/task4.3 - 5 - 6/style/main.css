@@ -162,14 +162,3 @@ img {
     margin-right: 0 15px;
 }
 
-.responsive-svg-container {
-    width: 100%; /* Take full width of the parent container */
-    height: auto; /* Maintain aspect ratio */
-    position: relative;
-  }
-  
-  svg.svg-content-responsive {
-    display: block;
-    width: 100%; /* Scale SVG to fit the container */
-    height: auto; /* Maintain aspect ratio */
-  }

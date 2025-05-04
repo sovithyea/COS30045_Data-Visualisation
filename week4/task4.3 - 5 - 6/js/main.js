@@ -16,13 +16,4 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("logo").addEventListener("click", function () {
     document.querySelector("[data-page='home']").click();
   });
-
-  // ✅ Draw chart immediately when page loads
-  d3.csv("data/televisions.csv").then(data => {
-    const formattedData = data.map(d => ({
-      brand: d["Brand_Reg"],
-      modelCount: +d["Count(Model_No)"]
-    }));
-    createBarChart(formattedData);
-  });
 });
